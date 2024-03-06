@@ -1,0 +1,6 @@
+@tests_build_cql_HostAddress = http://localhost:5182
+
+GET {{tests_build_cql_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
